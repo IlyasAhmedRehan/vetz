@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Vetzy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="p-0 mt-0">
+                <div class="top-bar">
+                    <div class="contact-item">
+                        <img alt="mail" width="26" height="20" src="./assets/nav/mail.svg">
+                        <p class="contact-text">support@patte.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img alt="phone" width="26" height="20" src="./assets/nav/phone.svg">
+                        <p class="contact-text">+021 01283492</p>
+                    </div>
+                </div>
+
+                <div class="main-bar">
+                    <div class="menu-toggle">
+                        <button class="menu-button" onclick="toggleMenu()">
+                            <svg class="icon" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                                <title>Hamburger menu</title>
+                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <a href="#"><img alt="LOGO" width="250" height="48" src="./assets/logo/vetzy.svg" class="logo"></a>
+
+                    <div class="menu-items" id="mobileMenu">
+                        <button class="close-button" onclick="toggleMenu()">✖</button>
+
+                        <!-- Logo and Contact inside the mobile menu -->
+
+                        <ul class="menu-list">
+                            <li><a class="menu-link" href="/">Home</a></li>
+                            <li><a class="menu-link" href="/pricing">About</a></li>
+                            <li><a class="menu-link" href="/forum">Contact</a></li>
+                        </ul>
+                        <div class="appointment-btn">
+                            <button type="button" class="btn-get-appointment">Get Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero-section">
+            <div class="">
+                <div class="row">
+                    <div class="hero-content">
+                        <div class="row">
+                            <p class="hero-subtitle">Your Pet’s Health, Happiness, and Everything in Between
+                                <button class="btn-primary">All in One App</button>
+                            </p>
+                        </div>
+                        <h1 class="hero-title">Revolutionizing Pet Care with AI-Driven Solutions</h1>
+                        <p class="hero-description">
+                            Vetzy is transforming the way you care for your pets. Our AI-powered platform offers instant
+                            consultations, personalized nutrition plans, and a fully integrated e-shop with same-day
+                            delivery. Whether you need expert advice on behavior issues, medical care, or premium pet
+                            products, Vetzy ensures that your pet’s health and happiness are just a click away.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main">
+            <div class="relative">
+                <div class="section-heading text-center">
+                    <h2 class="section-title">Key <span class="highlight">Features</span></h2>
+                    <p class="section-description key-descp">Vetzy is transforming the way you care for your pets. Our AI-powered
+                        platform</p>
+                    <img alt="arrow" width="120" height="120" class="instant-arrow"
+                        src="./assets/instant-consultations/arrow.svg">
+                </div>
+                <img class="cat-claws-right top" width="50" height="50"
+                    src="./assets/instant-consultations/cat-claws.svg" />
+                <section class="primary-section -mt-70 instant-consultations-section mbb">
+                    <div class="primary-content sh1024">
+                        <div class="master-container">
+                            <div class="image-container-left">
+                                <img alt="doctor" class="mobile-image" width="300" height="600"
+                                    src="./assets/instant-consultations/doctor.png">
+                            </div>
+                        </div>
+                        <div class="text-content-center">
+                            <h2 class="primary-title">Instant Consultations</h2>
+                            <p class="primary-description ">Get professional advice from certified vets anytime,
+                                anywhere</p>
+                            <div class="primary-dog-food">
+                                <img class="bone-img" src="./assets/instant-consultations/dog-food.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <img width="300" height="500" class="cat-side" src="./assets/instant-consultations/cat.png" />
+                <img class="dog-claws-left" width="300" height="300"
+                    src="./assets/instant-consultations/dog-claws.svg" />
+            </div>
+
+            <div class="relative mt-30">
+                <section class="secondary-section ai-sec">
+                    <div class="secondary-content sh1024">
+                        <div class="text-content-center">
+                            <img class="AI_mobile-boneimg" height="100" width="100" src="./assets/ai/bone.svg" />
+                            <h2 class="secondary-title">AI Nutrition Planner</h2>
+                            <p class="secondary-description">Tailored meal plans and homemade recipes for your pet's
+                                optimal
+                                health</p>
+                            <div class="secondary-sub-section2 AI">
+                                <img class="bone-img" src="./assets/ai/bone.svg" />
+                                <img class="sec-subsection-img" height="200" width="200" src="./assets/ai/dog.svg" />
+                            </div>
+                        </div>
+                        <div class="master-container">
+                            <div class="image-container-right">
+                                <img alt="food plan" class="mobile-image" width="300" height="600"
+                                    src="./assets/ai/food-plan.png">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="puppy-image">
+                <img alt="puppy" width="200" height="700" src="./assets/prescriptions/puppy.png">
+            </div>
+
+            <div class="relative">
+                <img class="cat-claws-right " src="./assets/instant-consultations/cat-claws.svg" />
+
+                <section class="primary-section e-prep-sec">
+                    <div class="primary-content sh1024">
+                        <div class="master-container">
+                            <div class="image-container-left">
+                                <img alt="doctor" class="mobile-image" width="300" height="600"
+                                    src="./assets/prescriptions/eprescription.png">
+                            </div>
+                        </div>
+                        <div class="text-content-center">
+                            <h2 class="primary-title">E-Prescriptions & Delivery</h2>
+                            <p class="primary-description pr-12">Convenient prescriptions with fast home delivery</p>
+                            <div class="primary-dog-food">
+                                <img class="bone-img"  src="./assets/instant-consultations/dog-food.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="puppy-image-mobile">
+                    <img alt="puppy" width="153" height="250" src="./assets/prescriptions/puppy.png">
+                </div>
+            </div>
+
+
+            <div class="relative">
+                <section class="secondary-section mt-100 health-rec-sec">
+                    <div class="secondary-content sh1024">
+                        <div class="text-content-center">
+                            <img class="AI_mobile-boneimg bone-img" src="./assets/ai/bone.svg" />
+                            <h2 class="secondary-title">Pet Health Records</h2>
+                            <p class="secondary-description pr-5">Easy access and storage of your pet’s medical history
+                                for
+                                accurate future diagnosis</p>
+                            <div class="secondary-sub-section ">
+                                <img class="bone-img"  src="./assets/ai/bone.svg" />
+                            </div>
+                        </div>
+                        <div class="master-container">
+                            <div class="image-container-right">
+                                <img alt="food plan" class="mobile-image" width="300" height="600"
+                                    src="./assets/health/app.png">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row">
+                <img class="dog-claws-left" width="300" height="250"
+                    src="./assets/instant-consultations/dog-claws.svg" />
+                <img width="300" height="500" class="dog-side dog-side1" src="./assets/health/doggy.png" />
+            </div>
+            <div class="relative mt-120">
+                <section class="primary-section AI_assistant -mt-50">
+                    <div class="primary-content sh1024">
+                        <div class="master-container">
+                            <div class="image-container-left">
+                                <img alt="doctor" class="mobile-image" width="300" height="600"
+                                    src="./assets/ai-assistant/ai-chat.png">
+                            </div>
+                        </div>
+                        <div class="text-content-center">
+                            <h2 class="primary-title">AI Assistant for Pet Guidance</h2>
+                            <p class="primary-description pr-12">Convenient prescriptions with fast home delivery</p>
+                            <div class="primary-dog-food">
+                                <img class="bone-img"  src="./assets/instant-consultations/dog-food.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="relative homeService_section">
+                <section class="secondary-section mt-100">
+                    <div class="secondary-content">
+                        <div>
+                            <h2 class="secondary-title homeService">Home Services</h2>
+                            <p class="secondary-description pr-14">Pick-up and drop-off services for pets needing
+                                extensive
+                                care.
+                            </p>
+                            <div class="secondary-sub-section1">
+                                <img class="bone-img"  src="./assets/ai/bone.svg" />
+                            </div>
+                        </div>
+                        <div class="center">
+                        <img alt="services" class="home-service-img"
+                            src="./assets/services/vetzy-services.png">
+                        </div>
+                    </div>
+                    <img class="cat-claws-right top" src="./assets/instant-consultations/cat-claws.svg" />
+                </section>
+                <img class="arrow-left top top1" width="300" height="300" src="./assets/instant-consultations/arrow.png" />
+            </div>
+
+            <div class="right">
+                <img alt="puppy" class="puppy-image-img"e width="300" height="600" src="./assets/prescriptions/puppy-right.png">
+            </div>
+            <div class="relative">
+                <section class="primary-section -mt-70 -mt-80 eshop-section">
+                    <div class="primary-content sh1024">
+                        <div class="w-50">
+                            <div class="image-container-left eshop">
+                                <img alt="cart" class="cart eshopimg" src="./assets/shop/cart.png">
+                                <img alt="accessories" class="accessories eshopimg"
+                                    src="./assets/shop/accessories.png">
+                            </div>
+                        </div>
+                        <div class="text-content-center w-33">
+                            <div>
+                            <h2 class="primary-title">E-Shop</h2>
+                            <p class="primary-description">Find everything your pet needs with same-day delivery.</p>
+                        </div>
+                            <div class="primary-dog-food"></div>
+                            <img class="bone-img"  src="./assets/instant-consultations/dog-food.svg" />
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <img class="dog-claws-left forInvestors" width="300" height="300" src="./assets/instant-consultations/dog-claws.svg" />
+        </div>
+        </div>
+        <div class="custom-container  mt-48 invester-sec">
+            <div class="text-center">
+                <h2 class="section-title">For <span class="highlight">Investors</span></h2>
+                <p class="section-description px-5">Vetzy is transforming the way you care for your pets. Our AI-powered
+                    platform</p>
+                <img alt="arrow" width="165" height="200" class="arrow-image arrow-image-left"
+                    src="./assets/investors/inverted-arrow.png">
+                <img alt="claws" width="105" height="100" class=" blue-claws" src="./assets/investors/blue-claws.png">
+            </div>
+            <div class="investor-container">
+                <div class="card-container">
+                    <div class="card">
+                        <img alt="Invest" width="95" height="107" class="card-icon" src="./assets/investors/invest.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Invest in the Future of Pet Care</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">Vetzy is not just an app; it’s a movement towards smarter,
+                                    more efficient pet care</div>
+                                <div class="learn-more"> <a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img alt="Scalable Business Model" width="95" height="107" class="card-icon"
+                            src="./assets/investors/scalable.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Scalable Business Model</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">With AI integration and an expanding user base, Vetzy is
+                                    designed for growth</div>
+                            </div>
+                            <div class="learn-more"> <a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img alt="Innovative Technology" width="95" height="107" class="card-icon"
+                            src="./assets/investors/innovative.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Innovative Technology</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">Leveraging AI and data analytics to deliver unparalleled
+                                    service and insights</div>
+                            </div>
+                            <div class="learn-more"> <a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img alt="Proven Market Demand" width="95" height="107" class="card-icon"
+                            src="./assets/investors/demand.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Proven Market Demand</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">The global pet care market is booming, with an increasing
+                                    demand for tech-driven solutions</div>
+                            </div>
+                            <div class="learn-more"> <a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img alt="Competitive Advantage" width="95" height="107" class="card-icon"
+                            src="./assets/investors/competitive.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Strong Competitive Advantage</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">Contact us to discuss investment opportunities and be part
+                                    of
+                                    the future of pet care</div>
+                            </div>
+                            <div class="learn-more"> <a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img alt="Learning" width="95" height="107" class="card-icon"
+                            src="./assets/investors/learning.png">
+                        <div class="card-body">
+                            <div class="card-meta">
+                                <div class="justify">
+                                    <div class="card-title">Interested in Learning More?</div>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="card-description">Contact us to discuss investment opportunities and be part
+                                    of
+                                    the future of pet care</div>
+                            </div>
+                            <div class="learn-more"> <a href="#">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <img class="toys-right" width="200" height="200" src="./assets/investors/arrow-ball.png" />
+            </div>
+        </div>
+        <img class="blue-claws-left" width="300" height="300" src="./assets/investors/blue-dog-claws.svg" />
+
+    </main>
+
+    <div class="footer-cat-image">
+        <img src="./assets/footer/persian.png" alt="persian-cat" class="footer-cat-image cat">
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-section"></div>
+        <div class="footer-images-left">
+            <img src="./assets/footer/dogs-group.png" alt="dogs-group" class="footer-image dogs-group">
+        </div>
+        <div class="footer-container">
+           <div class="footerLogo"> <img src="./assets/footer/logo-white.png" alt="vetzy-white" class="footer-logo"></div>
+            <div class="row-footer">
+                <div class="footer-column footerText">
+                    <p class="footer-description">At Vetzy, we understand that your pets are more than just animals—they
+                        are family. That’s why we’ve created an innovative telemedicine platform</p>
+                    <div class="footer-social">
+                        <img src="./assets/footer/insta.svg" alt="instagram" class="social-icon">
+                        <img src="./assets/footer/linkedin.svg" alt="linkedin" class="social-icon">
+                        <img src="./assets/footer/fb.svg" alt="facebook" class="social-icon">
+                        <img src="./assets/footer/twitter.svg" alt="twitter" class="social-icon">
+                    </div>
+                </div>
+                <div class="footer-column footer-links">
+                    <p class="footer-links-title">Quick links</p>
+                    <p class="footer-link">Home</p>
+                    <p class="footer-link">About us</p>
+                    <p class="footer-link">Shop</p>
+                </div>
+                <div class="footer-column footer-contact">
+                    <p class="footer-links-title">Contact</p>
+                    <div class="contact-item">
+                        <img src="./assets/footer/phone.svg" alt="phone" class="contact-icon">
+                        <p class="contact-text">403-394-6468</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./assets/footer/mail.svg" alt="email" class="contact-icon">
+                        <p class="contact-text">Vetzy1234@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./assets/footer/location.svg" alt="location" class="contact-icon">
+                        <p class="contact-text">3833 Peachtree RD NE, Apt 1612, GA 30319</p>
+                    </div>
+                </div>
+                <img class="footerClaws" src="./assets/footer/claws.png" alt="claws" width="100" height="100">
+            </div>
+            <div class="footer-images-right">
+                <img src="./assets/footer/pet-meal.png" alt="pet-meal" class="footer-image pet-meal">
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyrights">
+            <p class="copyRight">© 2023. All Rights Reserved | Vetzy</p>
+            <div class="footer-policy-terms">
+                <p class="policy-term">Privacy Policy</p>
+                <p class="policy-term">Terms of Use</p>
+            </div>
+    </footer>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <!-- Close button in top right corner -->
+            <span class="close">&times;</span>
+            <!-- Content inside the modal -->
+            <div class="modal-container">
+                <img src="./assets/modal/arrow.png" width="100" height="100" />
+                <img class="img-dog" src="./assets/modal/dog.png" width="400" height="300" />
+                <img src="./assets/modal/claws.png" width="50" height="50" />
+            </div>
+            <div class="modal-section">
+                <img class="modal-img" src="./assets/modal/modalbg.png" />
+                <div class="text-img">
+                    <div class="modal-text">
+                        <p>Sign up now and get 20% off Exclusive updates and early access to our revolutionary pet care
+                            platform</p>
+                    </div>
+                    <div class="modal-row">
+                        <input placeholder="Enter Your Email Address" class="input-email" />
+                        <button class="call">
+                            <img src="./assets/modal/phone.svg" height="15" width="15" />
+                            <p> Be the First to Know</p>
+                        </button>
+                    </div>
+                </div>
+                <img class="modal-dogfood" src="./assets/modal/dogfood.png" width="100" height="100" />
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
