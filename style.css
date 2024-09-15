@@ -2691,8 +2691,11 @@ img.footer-image.pet-meal {
         padding-left: 10px;
 
     } */
-    .eshop-section .primary-content{
+    /* .eshop-section .primary-content{
         width:auto !important ;
+    } */
+    .eshop-section .text-content-center {
+        margin-left: 0;
     }
     .eshop-section .image-container-left{
         left: 10px;
@@ -2802,17 +2805,42 @@ img.footer-image.pet-meal {
     .eshop-section .eshop.image-container-left{
         left: 0 !important;
         flex-direction: row !important;
+        position: relative;
     }
     .eshop-section .image-container-left .cart {
-        transform: translateY(-40px);
+        transform: translateY(-20px);
         width: 170px;
         height: auto;
-    }
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+}
     .eshop-section .image-container-left .accessories {
-        transform: translateY(40px);
+        transform: translateY(60px);
         width: 170px;
         height: auto;
-    }
+        -webkit-transform: translateY(60px);
+        -moz-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+        -o-transform: translateY(60px);
+}
+.footer-description {
+    font-size: 20px;
+}
+.social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.footer-links p, .footer-contact p {
+    font-size: 24px;
+}
+p.footer-link,p.contact-text {
+    font-size: 20px;
+}
+.footer-policy-terms ,.copyRight{
+    font-size: 18px;
+}
     .eshop-section .text-content-center {
         margin-top: 1rem !important;
         flex-direction: column-reverse;
@@ -2822,7 +2850,10 @@ img.footer-image.pet-meal {
         height: auto;
     }
     .eshop-section.primary-section {
-        margin-top: -270px !important;
+        margin-top: -220px !important;
+    }
+    .custom-container.mt-48.invester-sec{
+        margin-top: 3rem;
     }
     .invester-sec .section-description {
         margin-bottom: 20px;
@@ -2851,7 +2882,7 @@ img.footer-image.pet-meal {
         position: absolute;
     }
     .footer{
-        padding: 2.5rem 1.5rem 7rem;
+        padding: 2.5rem 1.5rem 1rem;
     }
     .footer-logo{
             width: 140px;
@@ -3038,6 +3069,30 @@ img.footer-image.pet-meal {
         justify-content: center;
         display: flex;
         max-width: initial;
+        position: relative;
+        top: -60px;
+    }
+    .AI_assistant .text-content-center{
+        margin-left: 0;
+        justify-content: flex-end;
+    }
+    .AI_assistant .image-container-left {
+        max-width: initial;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+
+    }
+    .relative.homeService_section {
+        height: 80vh;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+    .primary-section.e-prep-sec {
+        margin-top: 4rem;
+    }
+    .e-prep-sec .text-content-center {
+        margin-left: 0;
     }
     .card {
         width: calc(100% - 16px);
