@@ -3139,7 +3139,7 @@ img.footer-image.pet-meal {
     }
 
     .home-service-img {
-        width: 330px;
+        width: 280px;
         padding-bottom: 1rem;
     }
     .primary-title,
@@ -3366,10 +3366,64 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 .hero-section {
     height: 820px;
 }
+.primary-dog-food img {
+        width: 60px;
+        height: 40px;
+    }
+        .primary-dog-food {
+        right: -5px !important;
+    }
+    .AI_mobile-boneimg {
+        width: 60px;
+        height: 40px;
+    }
+
 
 }
 
+@media (max-width: 390px) {
 
+    .relative.mt-30 {
+        margin-top: 120px !important;
+    }
+        .cat-side {
+        height: 190px !important;
+        width: 120px !important;
+        transform: translateY(-60px) !important;
+    }
+        .secondary-section.mt-100.health-rec-sec {
+        margin-top: 120px;
+    }
+      .eshopimg {
+        width: 137px !important;
+        height: 264px !important;
+    }
+        .eshop-section .text-content-center img {
+        width: 60px;
+        height: 40px;
+    }
+        .blue-claws {
+        top: 160px;
+    }
+        .invester-sec .section-description {
+        margin-bottom: 50px;
+    }
+        .sh1024 {
+        margin-top: 5rem;
+    }
+
+}
+@media (max-width: 390px) {
+
+      .eshopimg {
+        width: 107px !important;
+        height: 206px !important;
+    }
+.ss{
+    height: 480px;
+}
+
+}
 
 @media (min-width: 1920px) {
     .hero-section {
@@ -3594,6 +3648,22 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     .hero-content {
         padding: 0 0px 0 250px;
     }
+        .btn-get-appointment {
+        padding: 20px 40px;
+        font-size: 24px;
+    }
+        .card-title {
+        font-size: 2rem;
+    }
+        .card-description {
+        font-size: 1.5rem;
+    }
+    .learn-more {
+    font-size: 24px;
+}
+.card-description {
+    margin-top: 25px;
+}
     .main-bar {
         padding: 20px 250px;
     }
@@ -3685,6 +3755,51 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         max-width: 2100px;
     }
 }
+
+@media (min-width: 2560px){
+    .hero-section {
+        height: 1365px;
+        padding: 82px 0;
+    }
+        .hero-description {
+        font-size: 2rem;
+    }
+        .hero-subtitle {
+        font-size: 1.8rem;
+    }
+    .hero-subtitle .btn-primary{
+        font-size: 1.8rem;
+    }
+        .hero-title {
+        font-size: 6rem;
+    }
+     .main-bar {
+        padding: 20px 300px;
+    }
+    .top-bar {
+        padding: 0 300px;
+    }
+    .hero-content {
+        padding: 0 0px 0 300px;
+    }
+}
+
+@media (min-width: 3000px){
+    .hero-section {
+        height: 1500px;
+        padding: 102px 0;
+    }
+     .main-bar {
+        padding: 20px 300px;
+    }
+    .top-bar {
+        padding: 0 300px;
+    }
+    .hero-content {
+        padding: 0 0px 0 300px;
+    }
+}
+
 
 /* Media query for iPhone 12 Pro in portrait mode */
 @media only screen 
