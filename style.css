@@ -8,12 +8,14 @@
 /* Body Styling */
 html{
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     overflow: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal.show {
@@ -3353,6 +3355,7 @@ p.footer-link,p.contact-text {
         justify-content: center;
         max-width: max-content;
         position: inherit;
+        top: 0;
     }
     .mobile-image {
         width: 210px;
@@ -4052,12 +4055,15 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 }
 .eshop-section .image-container-left .accessories,.eshop-section .image-container-left .cart {
     width: 140px;
+    top: 0;
 }
 .primary-section.-mt-70.instant-consultations-section.mbb {
     position: relative;
     top: 0;
 }
-.primary-section.-mt-70.instant-consultations-section.mbb {
-    overflow: hidden;
+.mobile-image {
+    top: 0;
+    position: relative;
 }
+
 }
