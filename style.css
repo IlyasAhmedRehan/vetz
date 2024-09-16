@@ -3534,6 +3534,7 @@ p.footer-link,p.contact-text {
     .mobile-image {
         width: 210px;
         height: 410px;
+        position: relative;
     }
     .primary-title, .secondary-title, .section-title {
         font-size: 28px;
@@ -4262,6 +4263,10 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 .mobile-image {
     top: 0;
     position: relative;
+}
+.image-container-left {
+    top: 0 !important;
+    margin-top: -80px !important;
 }
 
 }
