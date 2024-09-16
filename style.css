@@ -149,7 +149,6 @@ body {
     background-size: cover;
     padding: 52px 0;
     color: white;
-    background-color: #f4f4f4 !important;
     height: 768px;
 }
 
@@ -201,6 +200,10 @@ body {
 
 .top {
     transform: translateY(-300px);
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    -ms-transform: translateY(-300px);
+    -o-transform: translateY(-300px);
 }
 
 /* Button Styles */
@@ -248,6 +251,10 @@ body {
     top: 150px;
     left: 15%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
     .home-service-img {
         width: 515px;
@@ -375,12 +382,19 @@ body {
 
 .cart {
     transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
 }
 
 .accessories {
-    transform: translateY(20%);
     margin-left: 15px;
-
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    -o-transform: translateY(20%);
 }
 
 .image-container-left {
@@ -489,6 +503,10 @@ body {
     position: absolute;
     z-index: -1;
     transform: translateY(130px);
+    -webkit-transform: translateY(130px);
+    -moz-transform: translateY(130px);
+    -ms-transform: translateY(130px);
+    -o-transform: translateY(130px);
 }
 
 .right {
@@ -496,6 +514,10 @@ body {
     z-index: -1;
     right: 0;
     transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
 }
 
 .puppy-image img {
@@ -1238,13 +1260,17 @@ body {
 .text-img {
     position: absolute;
     top: 50%;
-    transform: translateY(-70%);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: white;
     padding: 90px;
+    transform: translateY(-70%);
+    -webkit-transform: translateY(-70%);
+    -moz-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    -o-transform: translateY(-70%);
 }
 
 .modal-text p {
@@ -1337,6 +1363,10 @@ body {
     position: absolute;
     right: 0;
     transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
 }
 
 .dog-side {
@@ -1344,6 +1374,10 @@ body {
     right: 0;
     z-index: 5;
     transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
 }
 
 .puppy-image-mobile {
@@ -1406,6 +1440,10 @@ body {
 }
 .top {
     transform: translateY(-240px);
+    -webkit-transform: translateY(-240px);
+    -moz-transform: translateY(-240px);
+    -ms-transform: translateY(-240px);
+    -o-transform: translateY(-240px);
 }
 
 .instant-arrow {
@@ -1414,6 +1452,10 @@ body {
 
 .cart{
     transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    -o-transform: translateY(-10%);
 }
     
 .image-container-right {
@@ -1462,6 +1504,10 @@ body {
 }
 .puppy-image {
     transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
 }
 .mobile-image {
     width: 230px;
@@ -1470,8 +1516,11 @@ body {
 
     .accessories {
         transform: translateY(80px);
-
-    }
+        -webkit-transform: translateY(80px);
+        -moz-transform: translateY(80px);
+        -ms-transform: translateY(80px);
+        -o-transform: translateY(80px);
+}
 
     /* .w-50{
         width: auto !important;
@@ -1492,8 +1541,11 @@ body {
 
     .primary-dog-food {
         transform: translateY(0px);
-
-    }
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
 
     .pr-14 {
         padding-right: 0rem;
@@ -1513,7 +1565,11 @@ body {
 
     .right {
         transform: translateY(-100px) !important;
-    }
+        -webkit-transform: translateY(-100px) !important;
+        -moz-transform: translateY(-100px) !important;
+        -ms-transform: translateY(-100px) !important;
+        -o-transform: translateY(-100px) !important;
+}
     .eshop-section .primary-content{
         flex-direction: column !important;
     }
@@ -1522,7 +1578,11 @@ body {
 }
 .top1 {
         transform: translateY(-450px);
-    }
+        -webkit-transform: translateY(-450px);
+        -moz-transform: translateY(-450px);
+        -ms-transform: translateY(-450px);
+        -o-transform: translateY(-450px);
+}
     .hero-title {
     font-size: 42px;
 }
@@ -1633,9 +1693,13 @@ body {
     .text-img {
         position: absolute;
         top: 50%;
-        transform: translateY(-100%);
         padding: 20px;
-    }
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
 
     .modal-row {
         flex-direction: column;
@@ -1788,7 +1852,7 @@ body {
     -o-transform: translateY(-100px);
 }
 .relative.homeService_section{
-    height: 70vh;
+    height: auto;
 }
 .primary-section.-mt-70.-mt-80.eshop-section{
     margin-top: -30px;
@@ -1880,7 +1944,11 @@ img.footer-image.pet-meal {
     }
         .right {
         transform: translateY(-80px) !important;
-    }
+        -webkit-transform: translateY(-80px) !important;
+        -moz-transform: translateY(-80px) !important;
+        -ms-transform: translateY(-80px) !important;
+        -o-transform: translateY(-80px) !important;
+}
 }
 
 @media (max-width: 860px) {
@@ -2015,10 +2083,14 @@ img.footer-image.pet-meal {
     padding-left: 4rem;
 }
 .top1 {
-    transform: translateY(-310px);
     width: 160px;
     height: 160px;
     margin-left: -50px;
+    transform: translateY(-310px);
+    -webkit-transform: translateY(-310px);
+    -moz-transform: translateY(-310px);
+    -ms-transform: translateY(-310px);
+    -o-transform: translateY(-310px);
 }
 .eshop-section .image-container-left {
     left: 45px !important;
@@ -2100,7 +2172,11 @@ img.footer-image.pet-meal {
     }
     .cat-side {
         transform: translateY(-80px);
-    }
+        -webkit-transform: translateY(-80px);
+        -moz-transform: translateY(-80px);
+        -ms-transform: translateY(-80px);
+        -o-transform: translateY(-80px);
+}
     section.primary-section.AI_assistant .primary-section{
         margin-top: 0;
     }
@@ -2232,9 +2308,13 @@ img.footer-image.pet-meal {
     .text-img {
         position: absolute;
         top: 50%;
-        transform: translateY(-100%);
         padding: 20px;
-    }
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
 
     .modal-row {
         flex-direction: column;
@@ -2710,7 +2790,7 @@ img.footer-image.pet-meal {
         margin-left: 0 !important;
         display: flex;
         justify-items: center !important;
-        position: relative;
+        position: inherit;
         top: 0;
         justify-content: center;
     }
@@ -2746,7 +2826,11 @@ img.footer-image.pet-meal {
         margin-top: 0 !important;
         padding-bottom: 20px !important;
         transform: translateY(-10px);
-    }
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+}
     .ai-sec .text-content-center,.health-rec-sec .text-content-center{
         padding-bottom: 0px !important;
         margin-left: 0;
@@ -2772,7 +2856,11 @@ img.footer-image.pet-meal {
         width: 150px !important;
         height: 250px !important;
         transform: translateY(-80px) !important;
-    }
+        -webkit-transform: translateY(-80px) !important;
+        -moz-transform: translateY(-80px) !important;
+        -ms-transform: translateY(-80px) !important;
+        -o-transform: translateY(-80px) !important;
+}
 
     .primary-dog-food {
         transform: translateY(-180px) !important;
@@ -2810,21 +2898,21 @@ img.footer-image.pet-meal {
     .eshop-section .eshop.image-container-left{
         left: 0 !important;
         flex-direction: row !important;
-        position: relative;
+        position: inherit;
     }
     .eshop-section .image-container-left .cart {
-        transform: translateY(-20px);
         width: 170px;
         height: auto;
+        transform: translateY(-20px);
         -webkit-transform: translateY(-20px);
         -moz-transform: translateY(-20px);
         -ms-transform: translateY(-20px);
         -o-transform: translateY(-20px);
 }
     .eshop-section .image-container-left .accessories {
-        transform: translateY(60px);
         width: 170px;
         height: auto;
+        transform: translateY(60px);
         -webkit-transform: translateY(60px);
         -moz-transform: translateY(60px);
         -ms-transform: translateY(60px);
@@ -2866,10 +2954,14 @@ p.footer-link,p.contact-text {
     }
     .invester-sec    .arrow-image-left {
         margin-top: 80px;
-        transform: rotate(-25deg);
         width: 80px;
         left: -10px;
-    }
+        transform: rotate(-25deg);
+        -webkit-transform: rotate(-25deg);
+        -moz-transform: rotate(-25deg);
+        -ms-transform: rotate(-25deg);
+        -o-transform: rotate(-25deg);
+}
     .blue-claws{
         display: block;
         width: 40px;
@@ -2945,7 +3037,6 @@ p.footer-link,p.contact-text {
         background-size: cover;
         padding: 30px 0;
         color: white;
-        background-color: #f4f4f4 !important;
         height: 960px;
     }
     .secondary-sub-section2.AI,.puppy-image{
@@ -3032,13 +3123,16 @@ p.footer-link,p.contact-text {
 
     .puppy-image-mobile {
         display: flex !important;
-        transform: translateY(-200px);
         position: absolute;
         z-index: -1;
         left: -30px;
         bottom: -30%;
-
-    }
+        transform: translateY(-200px);
+        -webkit-transform: translateY(-200px);
+        -moz-transform: translateY(-200px);
+        -ms-transform: translateY(-200px);
+        -o-transform: translateY(-200px);
+}
 
     .relative {
         width: auto;
@@ -3074,7 +3168,7 @@ p.footer-link,p.contact-text {
         justify-content: center;
         display: flex;
         max-width: initial;
-        position: relative;
+        position: inherit;
         top: -60px;
     }
     .AI_assistant .text-content-center{
@@ -3089,7 +3183,7 @@ p.footer-link,p.contact-text {
 
     }
     .relative.homeService_section {
-        height: 80vh;
+        height: auto;
         margin-bottom: 1rem;
         margin-top: 3rem;
     }
@@ -3139,7 +3233,11 @@ p.footer-link,p.contact-text {
         position: absolute;
         top: 50%;
         transform: translateY(-120%);
-    }
+        -webkit-transform: translateY(-120%);
+        -moz-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+}
 
     .input-email,
     .call {
@@ -3253,7 +3351,7 @@ p.footer-link,p.contact-text {
         display: flex;
         justify-content: center;
         max-width: max-content;
-        position: relative;
+        position: inherit;
     }
     .mobile-image {
         width: 210px;
@@ -3269,8 +3367,11 @@ p.footer-link,p.contact-text {
     }
     .text-content-center {
         transform: translateY(-30px);
-  
-    }
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+}
     .secondary-section.ai-sec {
         margin-top: 110px;
     }
@@ -3307,9 +3408,13 @@ p.footer-link,p.contact-text {
     .e-prep-sec .text-content-center,.AI_assistant .text-content-center {
         margin-left: 0;
         justify-content: flex-end;
-        transform: translateY(-20px);
         padding: 0 20px !important;
-    }
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+}
     .e-prep-sec .image-container-left {
         margin: 0;
         justify-content: center;
@@ -3330,18 +3435,30 @@ p.footer-link,p.contact-text {
         height: auto;
     }
         .eshop-section .image-container-left .cart {
-        transform: translateY(-40px);
-        width: 155px;
-        height: auto;
-    }
+            width: 155px;
+            height: auto;
+            transform: translateY(-40px);
+        -webkit-transform: translateY(-40px);
+        -moz-transform: translateY(-40px);
+        -ms-transform: translateY(-40px);
+        -o-transform: translateY(-40px);
+}
         .eshop-section .image-container-left .accessories {
-        transform: translateY(40px);
-        width: 155px;
-        height: auto;
-    }
+            width: 155px;
+            height: auto;
+            transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+        -moz-transform: translateY(40px);
+        -ms-transform: translateY(40px);
+        -o-transform: translateY(40px);
+}
     .puppy-image-mobile {
         transform: translateY(-130px);
-    }
+        -webkit-transform: translateY(-130px);
+        -moz-transform: translateY(-130px);
+        -ms-transform: translateY(-130px);
+        -o-transform: translateY(-130px);
+}
     .health-rec-sec .text-content-center {
         transform: translateY(-20px);
         -webkit-transform: translateY(-20px);
@@ -3364,8 +3481,7 @@ p.footer-link,p.contact-text {
     max-width: inherit;
     justify-content: center;
     display: flex;
-    position: relative;
-    top: -1%;
+    position: inherit;
 }
 .relative.homeService_section {
     height: auto;
@@ -3383,7 +3499,6 @@ p.footer-link,p.contact-text {
     max-width: 100%;
     justify-content: center;
     text-align: center;
-    margin-left: 1rem;
     top: 0;
 }
 .eshop-section .text-content-center {
@@ -3391,9 +3506,6 @@ p.footer-link,p.contact-text {
     flex-direction: column-reverse;
     justify-content: flex-start;
     margin: 0;
-}
-.master-container {
-    top: -20px;
 }
 .primary-section.AI_assistant {
     margin-top: 80px;
@@ -3482,7 +3594,11 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         height: 190px !important;
         width: 120px !important;
         transform: translateY(-60px) !important;
-    }
+        -webkit-transform: translateY(-60px) !important;
+        -moz-transform: translateY(-60px) !important;
+        -ms-transform: translateY(-60px) !important;
+        -o-transform: translateY(-60px) !important;
+}
         .secondary-section.mt-100.health-rec-sec {
         margin-top: 120px;
     }
@@ -3586,7 +3702,11 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 
     .top {
         transform: translateY(-290px);
-    }
+        -webkit-transform: translateY(-290px);
+        -moz-transform: translateY(-290px);
+        -ms-transform: translateY(-290px);
+        -o-transform: translateY(-290px);
+}
 
     .primary-dog-food {
         display: flex;
@@ -3679,6 +3799,10 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 }
 .cart {
     transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
 }
 
     .hero-title {
@@ -3809,19 +3933,27 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         left: 40%;
     }
     .dog-side {
-        transform: translateY(-50px);
         width: 600px;
         height: 840px;
-    }
+        transform: translateY(-50px);
+        -webkit-transform: translateY(-50px);
+        -moz-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+        -o-transform: translateY(-50px);
+}
     .homeService_section .home-service-img{
         width: 805px;
         height: 400px;
     }
 
     img.arrow-left.top.top1{
-        transform: translateY(-610px);
         margin-left: -20px;
-    }
+        transform: translateY(-610px);
+        -webkit-transform: translateY(-610px);
+        -moz-transform: translateY(-610px);
+        -ms-transform: translateY(-610px);
+        -o-transform: translateY(-610px);
+}
     .w-33 {
         width: 70%;
     }
