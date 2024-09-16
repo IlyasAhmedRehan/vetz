@@ -2706,7 +2706,7 @@ img.footer-image.pet-meal {
         display: flex;
         justify-content: center;
         max-width: max-content;
-        position: relative;
+        position: inherit;
         left: 0px !important;
     }
     .mobile-image {
@@ -3344,6 +3344,7 @@ p.footer-link,p.contact-text {
     }
     .primary-section.-mt-70.instant-consultations-section.mbb {
         margin-top: 2rem;
+        position: relative;
     }
     .instant-consultations-section .image-container-left {
         width: 100%;
@@ -3374,6 +3375,7 @@ p.footer-link,p.contact-text {
 }
     .secondary-section.ai-sec {
         margin-top: 110px;
+        position: relative;
     }
         .secondary-section.mt-100.health-rec-sec {
         margin-top: 110px;
@@ -3402,9 +3404,9 @@ p.footer-link,p.contact-text {
     .instant-arrow {
         top: 1rem;
     }
-    .primary-section.e-prep-sec     .master-container {
+    /* .primary-section.e-prep-sec     .master-container {
         position: initial;
-    }
+    } */
     .e-prep-sec .text-content-center,.AI_assistant .text-content-center {
         margin-left: 0;
         justify-content: flex-end;
@@ -4043,11 +4045,19 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 }
 .sh1024 {
     height: 560px;
+    top: 0;
 }
 .AI_mobile-boneimg {
     right: -30px;
 }
 .eshop-section .image-container-left .accessories,.eshop-section .image-container-left .cart {
     width: 140px;
+}
+.primary-section.-mt-70.instant-consultations-section.mbb {
+    position: relative;
+    top: 0;
+}
+.primary-section.-mt-70.instant-consultations-section.mbb {
+    overflow: hidden;
 }
 }
