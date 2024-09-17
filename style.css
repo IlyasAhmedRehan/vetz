@@ -4232,11 +4232,14 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
   and (max-device-width: 844px) 
   and (-webkit-min-device-pixel-ratio: 3) 
   and (orientation: portrait) {
-    body,html{
+    /* body,html{
         overflow: auto;
-    }
+    } */
     .master-container .image-container-right {
         top: 0;
+        justify-content: center;
+        display: flex;
+        margin-top: -80px !important;
     }
     .ai-sec .text-content-center {
         transform: translateY(-30px);
@@ -4244,6 +4247,15 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         -moz-transform: translateY(-30px);
         -ms-transform: translateY(-30px);
         -o-transform: translateY(-30px);
+        display: flex;
+        justify-content: flex-end;
+}
+.health-rec-sec .text-content-center {
+    display: flex;
+    justify-content: flex-end;
+}
+.eshop-section .eshop.image-container-left {
+    margin-top: 0 !important;
 }
 .sh1024 {
     height: 560px;
@@ -4261,8 +4273,8 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     top: 0;
 }
 .mobile-image {
-    top: 0;
-    position: relative;
+    top: -110px;
+    position: absolute;
 }
 .image-container-left {
     top: 0 !important;
