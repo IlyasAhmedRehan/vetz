@@ -19,7 +19,9 @@ body {
 }
 
 .modal.show {
-    display: block; /* Make the modal visible */
+    display: block; 
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
   }
 /* Header Styling */
 /* Navbar */
@@ -1323,7 +1325,11 @@ body {
     }
 
 }
+.modalClaws{
+    width: 70px;
+    height: 58px;
 
+}
 .modal {
     display: none;
     position: fixed;
@@ -1337,7 +1343,7 @@ body {
 }
 
 .modal-content {
-    background: rgba(194, 191, 191, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
@@ -1791,19 +1797,20 @@ body {
 }
     .modal-content {
         margin: 20% auto;
-        padding: 10px;
     }
 
     .modal-container .img-dog {
-        height: 100px;
-        width: 100px;
+        height: 35%;
+        width: 35%;
     }
 
 
 
     .modal-text p {
-        font-size: 0.8rem;
-        padding: 0 20px;
+        font-size: 1.2rem;
+        padding: 0 26px 20px 0;
+        line-height: 1.5;
+        margin-bottom: .5rem;
     }
 
     .input-email,
@@ -1814,23 +1821,38 @@ body {
     }
 
     .modal-section {
-        top: -50px
+        top: -50px;
+        position: relative;
+    }
+    .modal-dogfood {
+        width: 160px;
+        height: 130px;
+        position: absolute;
+    top: unset;
+    left: 0;
+    bottom: 0;
     }
 
-
+    .modal-container {
+        align-items: center;
+    }
+    .modalArrow{
+        width: 150px;
+        height: 120px;
+    }
     .text-img {
         position: absolute;
-        top: 50%;
+        top: 23%;
         padding: 20px;
-        transform: translateY(-100%);
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-        -o-transform: translateY(-100%);
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
 }
 
     .modal-row {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 2px;
     }
 
@@ -1841,7 +1863,7 @@ body {
 
     .input-email {
         font-size: 10px;
-        padding: 3px 10px;
+        padding: 10px 15px;
     }
 
     .call {
@@ -2270,6 +2292,9 @@ img.footer-image.pet-meal {
 .footer-copyrights {
     padding-left: 4rem;
 }
+.modal-row {
+    padding: 0 7rem;
+}
 }
 @media (max-width: 768px) {
     .menu-items {
@@ -2414,22 +2439,22 @@ img.footer-image.pet-meal {
     }
 
     .modal-content {
-        margin: 20% auto;
+        /* margin: 20% auto; */
         padding: 10px;
     }
 
-    .modal-container .img-dog {
+    /* .modal-container .img-dog {
         height: 100px;
         width: 100px;
-    }
+    } */
 
-    .text-img {
+    /* .text-img {
         flex-direction: column;
-    }
+    } */
 
     .modal-text p {
-        font-size: 0.5rem;
-        padding: 0 20px;
+        font-size: 1rem;
+        padding: 0 40px 0 20px;
     }
 
     .input-email,
@@ -2440,12 +2465,12 @@ img.footer-image.pet-meal {
         margin-top: 0;
     }
 
-    .modal-section {
+    /* .modal-section {
         top: -50px
-    }
+    } */
 
 
-    .text-img {
+    /* .text-img {
         position: absolute;
         top: 50%;
         padding: 20px;
@@ -2454,29 +2479,27 @@ img.footer-image.pet-meal {
         -moz-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
         -o-transform: translateY(-100%);
-}
+} */
 
     .modal-row {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 2px;
     }
 
     .input-email,
     .call {
-        padding: 0;
+        font-size: 11px;
+        padding: 8px 20px;
+        width: auto;
     }
 
-    .input-email {
+    /* .input-email {
         font-size: 10px;
         padding: 3px 10px;
-    }
-
-    .call {
-        padding: 3px 0;
-    }
+    } */
 
     .call p {
-        font-size: 10px;
+        font-size: 15px;
     }
     .card-title {
         font-size: 20px;
@@ -2576,8 +2599,7 @@ img.footer-image.pet-meal {
     } */
 
     .modal-dogfood {
-        top: -50px;
-        width: 100px !important;
+        width: 130px !important;
         height: 100px !important;
     }
 
@@ -2999,6 +3021,26 @@ img.footer-image.pet-meal {
         -ms-transform: translateY(-50px);
         -o-transform: translateY(-50px);
 }
+.text-img {
+    width: 100%;
+    padding: 20px 30px;
+    padding-left: 0px;
+}
+.modal-section {
+    height: 50vh;
+}
+.modal-img {
+    height: 100%;
+}
+.input-email, .call {
+    height: 41px;
+}
+.modal-row {
+    padding: 0 1rem;
+}
+.call p {
+    font-size: 11px;
+}
 
     .primary-title,
     .secondary-title {
@@ -3401,26 +3443,43 @@ p.footer-link,p.contact-text {
     }
 
     .text-img {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-120%);
-        -webkit-transform: translateY(-120%);
-        -moz-transform: translateY(-120%);
-        -ms-transform: translateY(-120%);
-        -o-transform: translateY(-120%);
+        width: 100%;
+        top: 10%;
+        padding: 20px 25px;
+}
+.modal-img{
+    height: 360px;
+}
+.modal-row {
+    padding: 0 .7rem;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+.modal-section .modal-img{
+    opacity: 0;;
+}
+.modal-section{
+    background-image: url('./assets/modal/modalbgMobile.png');
+    background-position: center;
+    top: -20px;
 }
 
     .input-email,
     .call {
-        padding: 0 2px;
+        padding: 12px;
+        font-size: 12px;
+        margin-bottom: .3rem;
     }
 
     .modal-text p {
-        font-size: 0.3rem;
+        font-size: 1rem;
+        padding: 0 15px 0 10px;
     }
 
     .call p {
-        font-size: 5px;
+        font-size: 12px;
     }
     .footer-description {
         font-size: 0.8rem;
@@ -3538,9 +3597,10 @@ p.footer-link,p.contact-text {
     }
     .primary-title, .secondary-title, .section-title {
         font-size: 28px;
+        line-height: 1.3;
+        margin-bottom: .5rem;
     }
     .instant-consultations-section .text-content-center {
-        padding-left: 0 !important;
         justify-content: flex-end;
         padding-bottom: 0 !important;
     }
@@ -3550,6 +3610,8 @@ p.footer-link,p.contact-text {
         -moz-transform: translateY(-30px);
         -ms-transform: translateY(-30px);
         -o-transform: translateY(-30px);
+        padding: 0 1.3rem !important;
+        margin: 0;
 }
     .secondary-section.ai-sec {
         margin-top: 110px;
@@ -3767,7 +3829,27 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         width: 60px;
         height: 40px;
     }
-
+    .modal-content {
+        height: auto;
+        padding-top: 4rem;
+    }
+    .modalArrow {
+        width: 110px;
+        height: 80px;
+    }
+    .modalClaws {
+        width: 50px;
+        height: 38px;
+    }
+    
+    .modal-container .img-dog {
+        height: 40%;
+        width: 50%;
+    }
+    .modal-section {
+        padding: 20px 0;
+    }    
+    
 
 }
 
@@ -3809,10 +3891,10 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         margin-top: 60px;
     }
     
-    .eshopimg {
+    /* .eshopimg {
         width: 107px !important;
         height: 206px !important;
-    }
+    } */
 .ss{
     height: 480px;
 }
@@ -4265,8 +4347,17 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     right: -30px;
 }
 .eshop-section .image-container-left .accessories,.eshop-section .image-container-left .cart {
-    width: 140px;
+    width: 155px;
     top: 0;
+    position: absolute;
+    left: 6px;
+}
+.eshop-section .image-container-left .accessories{
+    right: 6px;
+    left: unset;
+}
+.accessories {
+    margin-left: 5px;
 }
 .primary-section.-mt-70.instant-consultations-section.mbb {
     position: relative;
@@ -4280,5 +4371,15 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     top: 0 !important;
     margin-top: -80px !important;
 }
-
+}
+/* Media query for iPhone 14 Pro Max */
+@media only screen 
+  and (min-device-width: 430px) 
+  and (max-device-width: 430px) 
+  and (min-device-height: 932px)
+  and (max-device-height: 932px)
+  and (-webkit-device-pixel-ratio: 3) {
+    .eshop-section .image-container-left .accessories, .eshop-section .image-container-left .cart {
+        width: 175px;
+    }
 }
