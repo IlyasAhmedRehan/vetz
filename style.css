@@ -3898,7 +3898,10 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
 .ss{
     height: 480px;
 }
-
+.modal-section {
+    height: 60vh;
+    top: -44px;
+}
 }
 
 @media (min-width: 1920px) {
