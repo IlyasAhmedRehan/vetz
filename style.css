@@ -27,10 +27,9 @@ body {
     -webkit-backdrop-filter: blur(2px);
   }
   .modal-form{
-    display: flex;
+    display: contents;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
     justify-content: center;
   }
 /* Header Styling */
@@ -1877,7 +1876,7 @@ body {
     }
 
     .call {
-        padding: 3px 0;
+        padding: 8px 0;
     }
 
     .call p {
@@ -2306,10 +2305,12 @@ img.footer-image.pet-meal {
     padding-left: 4rem;
 }
 .modal-row {
-    padding: 0 7rem;
-}
+
 }
 @media (max-width: 768px) {
+    .modal-form{
+        flex-wrap: wrap;
+      }
     .menu-items {
         display: none;
         flex-direction: column;
