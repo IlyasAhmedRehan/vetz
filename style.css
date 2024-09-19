@@ -26,6 +26,11 @@ body {
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
   }
+  .modal-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 /* Header Styling */
 /* Navbar */
 .navbar {
