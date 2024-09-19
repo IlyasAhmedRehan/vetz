@@ -26,3 +26,32 @@ if (event.target == modal) {
 }
 }
 }
+
+document.querySelector('.call').addEventListener('click', function() {
+    const emailInput = document.querySelector('.input-email').value;
+    
+    if (emailInput) {
+        // Create a Blob object to store the email data
+        const blob = new Blob([emailInput], { type: 'text/plain' });
+        
+        // Create a download link
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'emails.txt';
+        
+        // Trigger the download
+        a.click();
+
+        // Close the popup after saving the email
+        closePopup(); // Make sure this function closes your modal dialog
+
+        // Optionally, clear the email input field
+        document.querySelector('.input-email').value = '';
+    }
+});
+
+function closePopup() {
+    // Logic to close the modal popup
+    const modal = document.querySelector('.modal-container'); // Adjust to match your popup element
+    modal.style.display = 'none'; // Or use any other method to close the modal
+}
