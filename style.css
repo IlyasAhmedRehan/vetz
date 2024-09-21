@@ -458,7 +458,9 @@ body {
 .image-container-left {
     left: 80px;
 }
-
+.image-container-left.eshop{
+    left: 40px;
+}
 .image-container-right {
     right: 100px;
 }
@@ -471,7 +473,7 @@ body {
 
 .text-content-center {
     width: 60%;
-    height: 400px;
+    height: 420px;
     display: -webkit-box;  
         display: -ms-flexbox; 
         display: -webkit-flex; 
@@ -1962,7 +1964,7 @@ body {
         width: 140px;
     }
     .primary-section {
-        margin-top: 60px;
+        margin-top: 100px;
     }
     .section-description {
         margin-bottom: 0;
@@ -2117,6 +2119,9 @@ img.footer-image.pet-meal {
        .sh1024 {
         height: 236px;
     }
+    .primary-content.sh1024.ss.es {
+   height: 300px;
+    }
 
         .bone-img {
         width: 50px;
@@ -2164,6 +2169,12 @@ img.footer-image.pet-meal {
     }
     .e-prep-sec     .image-container-left {
         left: 30px;
+        margin-left: 0;
+        max-width: max-content;
+    }
+    .e-prep-sec .eshopimg {
+        width: 137px;
+        height: 264px;
         margin-left: 0;
     }
         .puppy-image img {
@@ -2308,6 +2319,21 @@ img.footer-image.pet-meal {
 
 }
 @media (max-width: 768px) {
+    .e-prep-sec .eshopimg {
+        width: 137px;
+        height: 264px;
+        margin-top: 0;
+    }
+    .e-prep-sec .primary-dog-food{
+        left: 60px;
+    }
+    .primary-content.sh1024.es{
+        padding-bottom: 0;
+    }
+    .e-prep-sec .image-container-left {
+        left: 0;
+        margin-top: 3rem;
+    }
     .modal-form{
         flex-wrap: wrap;
       }
@@ -3461,7 +3487,9 @@ p.footer-link,p.contact-text {
     .modal-container {
         gap: 5px;
     }
-
+    .e-prep-sec .eshopimg {
+        margin-top: -40px;
+    }
     .text-img {
         width: 100%;
         top: 12%;
@@ -3590,7 +3618,7 @@ p.footer-link,p.contact-text {
         padding-right: 0rem;
     }
     .sh1024 {
-        height: 540px;
+        height: 540px !important;
         margin-top: 4rem;
         flex-direction: column;
         justify-content: flex-end;
@@ -3686,6 +3714,11 @@ p.footer-link,p.contact-text {
         display: -webkit-flex; 
         display: flex;
         max-width: initial;
+        margin-top: 0 !important;
+    }
+    .e-prep-sec .eshopimg {
+        width: 162px;
+        height: 309px;
     }
     .e-prep-sec .primary-dog-food img {
         margin-top: 2rem;
@@ -3880,6 +3913,13 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     .modal-content {
         padding: 10px .5rem;
     }
+    .e-prep-sec .eshopimg {
+        width: 127px !important;
+        height: 254px !important;
+    }
+    .e-prep-sec .text-content-center{
+        padding: 0 10px !important;
+    }
     .relative.mt-30 {
         margin-top: 120px !important;
     }
@@ -3921,7 +3961,7 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
         height: 206px !important;
     } */
 .ss{
-    height: 480px;
+    height: 480px !important;
 }
 .modal-section {
     height: 70vh;
@@ -4372,7 +4412,7 @@ section.primary-section.-mt-70.-mt-80.eshop-section .primary-content,.custom-con
     margin-top: 0 !important;
 }
 .sh1024 {
-    height: 560px;
+    height: 560px !important;
     top: 0;
 }
 .AI_mobile-boneimg {
